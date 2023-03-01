@@ -19,3 +19,9 @@
     language: system
     files: \.rs$
     pass_filenames: false
+-   id: cargo-update
+    name: cargo update
+    description: Update cargo packages and lock file
+    entry: cargo update
+    language: system
+    pass_filenames: false
